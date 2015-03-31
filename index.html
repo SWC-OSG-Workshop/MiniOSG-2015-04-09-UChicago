@@ -12,37 +12,20 @@ latlng: 41.790743, -87.601077
 registration: restricted
 contact: balamurugan@uchicago.edu
 ---
-
-<!--
-    Edit the values in the parameter block above to be appropriate for your bootcamp.
-
--->
-
 <h2>General Information</h2>
-
 <p>
   The <a href="http://www.opensciencegrid.org">Open Science Grid</a> (OSG) is a national scale distributed 
   infrastructure for scientific computing. The OSG also offers training and tutorials for the 
   scientists and researchers. As part of our training service we are offering hands on workshop on 
   distributed high throughput computing (DHTC).  Participants will be encouraged to help one another
   and to apply what they have learned to their own research problems.
+  For more information, please email: balamurugan@uchicago.edu   </a>.
 </p>
 
-<!-- This block displays the instructors' names if they are available. -->
-{% if page.instructor %}
-<p>
-  <strong>Instructors:</strong>
-  {{page.instructor | join: ', ' %}}
-</p>
-{% endif %}
+<!--
+    Edit the values in the parameter block above to be appropriate for your bootcamp.
 
-<!-- This block displays the helpers' names if they are available. -->
-{% if page.helper %}
-<p>
-  <strong>Helpers:</strong>
-  {{page.helper | join: ', ' %}}
-</p>
-{% endif %}
+-->
 
 {% if page.latlng %}
 <p>
@@ -61,12 +44,6 @@ contact: balamurugan@uchicago.edu
 <!--
     Modify the block below if there are any special requirements.
 -->
-<p>
-  <strong>Requirements:</strong>
-  Participants must bring a laptop with a few specific software packages installed
-  (listed below).
-</p>
-
 <h2>Registration</h2>
 <p>
 Event is free but registration required. Space is limited for the event. To register,
@@ -74,11 +51,23 @@ Event is free but registration required. Space is limited for the event. To regi
 </p>
 <hr/>
 
-
 <p>
-  <strong>Contact</strong>:
-  For more information, please email: balamurugan@uchicago.edu   </a>.
+  <strong>Requirements:</strong>
+  Participants must bring a laptop.  
 </p>
+
+
+<h2>Setup Instructions </h2>
+<p>
+  <a href="setup.html">Instructions to set up the required software on Linux, Windows and Mac laptops and OSG sign up information. </a>
+</p>
+<hr/> 
+
+<h2>Lessons</h2>
+<p>
+  <a href="contents.html">Course material for the workshop</a>. 
+</p>
+<hr/> 
 
 <hr/>
 <div class="row-fluid">
@@ -93,22 +82,4 @@ Event is free but registration required. Space is limited for the event. To regi
   </div>
 
 <hr/>
-
-<!--
-    Edit this block to show what topics will be covered.
--->
-
-<h2>Setup Instructions </h2>
-<p>
-  <a href="setup.html">Instructions to set up the required software on Linux, Windows and Mac laptops and OSG sign up information. </a>
-</p>
-<hr/> 
-
-<h2>Lessons</h2>
-<p>
-  <a href="contents.html">Course material for the workshop</a>. 
-</p>
-<hr/> 
-
-
 
