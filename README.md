@@ -1,3 +1,3 @@
 # 2015-03-03-iupui
-SWC-OSG@IUPUI: http://swc-osg-workshop.github.io/2015-03-03-iupui/index.html
+MiniOSG@UChicago: http://swc-osg-workshop.github.io/MiniOSG-2015-04-09-UChicago/index.html
 gh-pages branch
