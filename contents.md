@@ -10,5 +10,5 @@ title: Lessons
 3.  [Software Resources on OSG ](novice/DHTC/03-OSGtour.html)
 4.  [Submitting Jobs  - HTCondor ](novice/DHTC/04-HTCondor-Submitting.html)
 5.  [Data Storage and Transfer ](novice/DHTC/05-Stash.html)
-6.  [Workflow Management - DAGMan (Bala) ](novice/DHTC/06-dagman-namd.html)
+6.  [Workflow Management - DAGMan ](novice/DHTC/06-dagman-namd.html)
 
