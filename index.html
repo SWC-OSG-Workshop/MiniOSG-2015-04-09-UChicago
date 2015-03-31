@@ -1,0 +1,120 @@
+---
+layout: bootcamp
+root: .
+venue: University of Chicago
+address: Room 240, Searle Chemistry Lab, 5735 S. Ellis Ave, Chicago, IL 60637
+country: United-States
+humandate: Apr 9 2015
+humantime: 5:00 pm - 7:15 pm 
+startdate: 2014-12-15
+enddate:   2014-12-17
+latlng: 41.790743, -87.601077
+registration: restricted
+contact: balamurugan@uchicago.edu
+---
+
+<!--
+    Edit the values in the parameter block above to be appropriate for your bootcamp.
+
+-->
+
+<h2>General Information</h2>
+
+<p>
+  The <a href="http://www.opensciencegrid.org">Open Science Grid</a> (OSG) is a national scale distributed 
+  infrastructure for scientific computing. The OSG also offers training and tutorials for the 
+  scientists and researchers. As part of our training service we are offering hands on workshop on 
+  distributed high throughput computing (DHTC).  Participants will be encouraged to help one another
+  and to apply what they have learned to their own research problems.
+</p>
+
+<!-- This block displays the instructors' names if they are available. -->
+{% if page.instructor %}
+<p>
+  <strong>Instructors:</strong>
+  {{page.instructor | join: ', ' %}}
+</p>
+{% endif %}
+
+<!-- This block displays the helpers' names if they are available. -->
+{% if page.helper %}
+<p>
+  <strong>Helpers:</strong>
+  {{page.helper | join: ', ' %}}
+</p>
+{% endif %}
+
+{% if page.latlng %}
+<p>
+  <strong>Where:</strong>
+  {{ page.address }}.
+  Get directions with
+  <a href="http://osm.org/go/ZUeedZ3vV?way=154656512">OpenStreetMap</a>
+  or
+  <a href="https://goo.gl/maps/qDqz2">Google Maps</a>.  <i>You will enter
+  at the basement level. Turn south inside Searle to take the elevator to
+  floor 2. Exiting the elevator, turn right twice, quickly, to head east
+  down the hallway to room 240.</i>
+</p>
+{% endif %}
+
+<!--
+    Modify the block below if there are any special requirements.
+-->
+<p>
+  <strong>Requirements:</strong>
+  Participants must bring a laptop with a few specific software packages installed
+  (listed below).
+</p>
+
+<h2>Registration</h2>
+<p>
+Event is free but registration required. Space is limited for the event. To register,
+<a href="https://www.eventbrite.com/e/swc-osg-uchicago-tickets-14604886609?utm_campaign=new_event_email&utm_medium=email&utm_source=eb_email&utm_term=eventname_text"> please visit here </a>
+</p>
+<hr/>
+
+
+<p>
+  <strong>Contact</strong>:
+  For more information, please email: balamurugan@uchicago.edu   </a>.
+</p>
+
+<hr/>
+<div class="row-fluid">
+    <h3>Grid Computing</h3>
+    <table class="table table-striped">
+      <tr> <td>05:00</td> <td>Introduction to Distributed High Throughput Computing (DHTC) </td> </tr>
+      <tr> <td>05:10</td> <td>Running computational jobs on OSG </td> </tr>
+      <tr> <td>06:00</td> <td>break</td> </tr>
+      <tr> <td>06:10</td> <td>Data transfer techqniques </td> </tr>
+      <tr> <td>06:45</td> <td>Workflows to perform large scale computation </td> </tr>
+    </table>
+  </div>
+
+<hr/>
+
+<!--
+    Edit this block to show what topics will be covered.
+-->
+
+<h2>Setup Instructions </h2>
+<p>
+  <a href="setup.html">Instructions to set up the required software on Linux, Windows and Mac laptops and OSG sign up information. </a>
+</p>
+<hr/> 
+
+<h2>Lessons</h2>
+<p>
+  <a href="contents.html">Course material for the workshop</a>. 
+</p>
+<hr/> 
+
+<h2>Survey</h2>
+<p>
+  <a href="https://docs.google.com/forms/d/1XvqTIV2aTEymyJyAchjacS8MvX3Cp9oRH0hPfed6QDo/viewform">Post workshop survey</a>. 
+</p>
+<hr/> 
+
+
+
