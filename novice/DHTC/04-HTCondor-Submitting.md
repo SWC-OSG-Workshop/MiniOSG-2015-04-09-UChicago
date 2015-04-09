@@ -57,7 +57,7 @@ during this workshop.  Fow now, just take a look at two:
 $ connect show-projects
 Based on your username (username), here is a list of projects you have
 access to:
-  * SWC-OSG-IU15
+  * MiniWorkshopUC15
 ~~~
 
 Each time you run a workload on OSG Connect, you need a project name to
