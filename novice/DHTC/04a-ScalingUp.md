@@ -86,10 +86,12 @@ Apply your `condor_q` and `connect watch` knowledge to see this job
 progress. Execute the following bash script to compute the average from all the jobs.
 
 Once the jobs are completed, you might want to invoke the script 
+
 ~~~
 $mcpi_ave.bash
 ~~~
-to compute the average value of pi.  
+
+to compute the average value of pi from all the available outputs.  
 
 ## Interlude: utilization plots
 
