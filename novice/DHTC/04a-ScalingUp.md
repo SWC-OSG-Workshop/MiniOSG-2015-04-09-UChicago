@@ -29,8 +29,8 @@ simple example. Once we understand the basic HTCondor script, it is easy
 to scale up.
 
 ~~~
-$ tutorial R-scalingup 
-$ cd R-scalingup 
+$ tutorial ScalingUp-R
+$ cd ScalingUp-R
 ~~~
 
 As we discussed in the previous section on HTCondor scripts, we need to
