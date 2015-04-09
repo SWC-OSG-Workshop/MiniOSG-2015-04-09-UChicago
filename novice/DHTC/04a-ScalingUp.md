@@ -55,16 +55,17 @@ error = job.error.$(Cluster).$(Process)
 log = job.log.$(Cluster).$(Process)
 
 requirements = (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE)   # Checks if OASIS available
-queue 1000
+queue 100
 
 ~~~
-Note the `Queue 1000`.  This tells Condor to enqueue 1000 copies of this job
+Note the `Queue 100`.  This tells Condor to enqueue 100 copies of this job
 as one cluster.  
 
 Let us take a look at the execution script, R-wrapper.sh
 
 ~~~
 #!/bin/bash
+  source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/bash
   module load R
   Rscript $1 > mcpi.$2.out
 ~~~
@@ -79,7 +80,7 @@ You'll see something like the following upon submission:
 ~~~
 $ condor_submit R.submit
 Submitting job(s).........................
-1000 job(s) submitted to cluster 837.
+100 job(s) submitted to cluster 837.
 ~~~
 
 Apply your `condor_q` and `connect watch` knowledge to see this job
